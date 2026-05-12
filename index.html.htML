@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تطبيق تسجيل الدخول</title>
+
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #808080;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      direction: rtl;
+    }
+
+    /* شكل شاشة الآيفون */
+    .iphone-screen {
+      width: 390px;
+      height: 844px;
+      background-color: #9a9a9a;
+      border-radius: 40px;
+      padding: 40px 25px;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    }
+
+    /* اللوقو */
+    .logo {
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 60px;
+    }
+
+    .logo img {
+      width: 120px;
+      height: 120px;
+      border-radius: 30px;
+    }
+
+    .logo h1 {
+      color: white;
+      margin-top: 15px;
+      font-size: 28px;
+    }
+
+    /* الحقول */
+    .input-box {
+      margin-bottom: 20px;
+    }
+
+    input {
+      width: 100%;
+      padding: 16px;
+      border: none;
+      border-radius: 15px;
+      font-size: 16px;
+      box-sizing: border-box;
+      outline: none;
+    }
+
+    /* زر الدخول */
+    .login-btn {
+      width: 100%;
+      padding: 16px;
+      background-color: #00c853;
+      color: white;
+      border: none;
+      border-radius: 15px;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+
+    .login-btn:hover {
+      background-color: #00a844;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="iphone-screen">
+
+    <!-- اللوقو -->
+    <div class="logo">
+      <img src="https://elo.international/uni/wp-content/uploads/2023/11/logo_uni-footer.png" alt="Logo">
+      <h1>My App</h1>
+    </div>
+
+    <!-- الايميل -->
+    <div class="input-box">
+      <input type="email" placeholder="ادخل البريد الإلكتروني">
+    </div>
+
+    <!-- كلمة المرور -->
+    <div class="input-box">
+      <input type="password" placeholder="ادخل كلمة المرور">
+    </div>
+
+    <!-- زر تسجيل الدخول -->
+    <button class="login-btn">
+      تسجيل الدخول
+    </button>
+
+  </div>
+
+</body>
+</html>
